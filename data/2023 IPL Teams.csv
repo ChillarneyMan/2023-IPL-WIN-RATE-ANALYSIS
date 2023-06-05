@@ -1,0 +1,75 @@
+season,city,date,team1,team2,toss_winner,toss_decisions,result,dl_applied,winner,win_by_runs,win_by_wickets,player_of_match,venue
+2023,Ahmedabad,"March 31, 2023",Chennai Super Kings,Gujarat Titans,Gujarat Titans,Field,normal,0,Gujarat Titans,0,5,Rashid Khan,Narendra Modi Stadium
+2023,Mohali,"April 1, 2023",Punjab Kings,Kolkata Knight Riders,Kolkata Knight Riders,Field,normal,0,Punjab Kings,7,0,Arshdeep Singh,Inderjit Singh Bindra Stadium
+2023,Lucknow,"April 1, 2023",Lucknow Super Giants,Delhi Capitals,Delhi Capitals,Field,normal,0,Lucknow Super Giants,50,0,Mark Wood,BRSABV Ekana Cricket Stadium
+2023,Hyderabad,"April 2, 2023",Rajasthan Royals,Sunrisers Hyderabad,Sunrisers Hyderabad,Field,normal,0,Rajasthan Royals,72,0,Jos Buttler,Rajiv Gandhi International Cricket Stadium
+2023,Bengaluru,"April 2, 2023",Mumbai Indians,Royal Challengers Bangalore,Royal Challengers Bangalore,Field,normal,0,Royal Challengers Bangalore,0,8,Faf du Plessis,M. Chinnaswamy Stadium
+2023,Chennai,"April 3, 2023",Chennai Super Kings,Lucknow Super Giants,Lucknow Super Giants,Field,normal,0,Chennai Super Kings,12,0,Moeen Ali,M. A. Chidambaram Stadium
+2023,Delhi,"April 4, 2023",Delhi Capitals,Gujarat Titans,Gujarat Titans,Field,normal,0,Gujarat Titans,0,6,Sai Sudharsan,Arun Jaitley Stadium
+2023,Guwahati,"April 5, 2023",Punjab Kings,Rajasthan Royals,Rajasthan Royals,Field,normal,0,Punjab Kings,5,0,Nathan Ellis,Assam Cricket Association Stadium
+2023,Kolkata,"April 6, 2023",Kolkata Knight Riders,Royal Challengers Bangalore,Royal Challengers Bangalore,Field,normal,0,Kolkata Knight Riders,81,0,Shardul Thakur,Eden Gardens
+2023,Lucknow,"April 7, 2023",Sunrisers Hyderabad,Lucknow Super Giants,Sunrisers Hyderabad,Bat,normal,0,Lucknow Super Giants,0,5,Krunal Pandya,BRSABV Ekana Cricket Stadium
+2023,Guwahati,"April 8, 2023",Rajasthan Royals,Delhi Capitals,Delhi Capitals,Field,normal,0,Rajasthan Royals,57,0,Yashasvi Jaiswal,Assam Cricket Association Stadium
+2023,Mumbai,"April 8, 2023",Mumbai Indians,Chennai Super Kings,Chennai Super Kings,Field,normal,0,Chennai Super Kings,0,7,Ravindra Jadeja,Wankhede Stadium
+2023,Ahmedabad,"April 9, 2023",Gujarat Titans,Kolkata Knight Riders,Gujarat Titans,Bat,normal,0,Kolkata Knight Riders,0,3,Rinku Singh,Narendra Modi Stadium
+2023,Hyderabad,"April 9, 2023",Punjab Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,Field,normal,0,Sunrisers Hyderabad,0,8,Shikhar Dhawan,Rajiv Gandhi International Cricket Stadium
+2023,Bengaluru,"April 10, 2023",Royal Challengers Bangalore,Lucknow Super Giants,Lucknow Super Giants,Field,normal,0,Lucknow Super Giants,0,1,Nicholas Pooran,M. Chinnaswamy Stadium
+2023,Delhi,"April 11, 2023",Delhi Capitals,Mumbai Indians,Mumbai Indians,Field,normal,0,Mumbai Indians,0,6,Rohit Sharma,Arun Jaitley Stadium
+2023,Chennai,"April 12, 2023",Rajasthan Royals,Chennai Super Kings,Chennai Super Kings,Field,normal,0,Rajasthan Royals,3,0,Ravichandran Ashwin,M. A. Chidambaram Stadium
+2023,Mohali,"April 13, 2023",Punjab Kings,Gujarat Titans,Gujarat Titans,Field,normal,0,Gujarat Titans,0,6,Mohit Sharma,Inderjit Singh Bindra Stadium
+2023,Kolkata,"April 14, 2023",Sunrisers Hyderabad,Kolkata Knight Riders,Kolkata Knight Riders,Field,normal,0,Sunrisers Hyderabad,23,0,Harry Brook,Eden Gardens
+2023,Bengaluru,"April 15, 2023",Royal Challengers Bangalore,Delhi Capitals,Delhi Capitals,Field,normal,0,Royal Challengers Bangalore,23,0,Virat Kohli,M. Chinnaswamy Stadium
+2023,Lucknow,"April 15, 2023",Lucknow Super Giants,Punjab Kings,Punjab Kings,Field,normal,0,Punjab Kings,0,2,Sikandar Raza,BRSABV Ekana Cricket Stadium
+2023,Mumbai,"April 16, 2023",Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,Field,normal,0,Mumbai Indians,0,5,Venkatesh Iyer,Wankhede Stadium
+2023,Ahmedabad,"April 16, 2023",Gujarat Titans,Rajasthan Royals,Rajasthan Royals,Field,normal,0,Rajasthan Royals,0,3,Shimron Hetmyer,Narendra Modi Stadium
+2023,Bengaluru,"April 17, 2023",Chennai Super Kings,Royal Challengers Bangalore,Royal Challengers Bangalore,Field,normal,0,Chennai Super Kings,8,0,Devon Conway,M. Chinnaswamy Stadium
+2023,Hyderabad,"April 18, 2023",Mumbai Indians,Sunrisers Hyderabad,Sunrisers Hyderabad,Field,normal,0,Mumbai Indians,14,0,Cameron Green,Rajiv Gandhi International Cricket Stadium
+2023,Jaipur,"April 19, 2023",Lucknow Super Giants,Rajasthan Royals,Rajasthan Royals,Field,normal,0,Lucknow Super Giants,10,0,Marcus Stoinis,Sawai Mansingh Stadium
+2023,Mohali,"April 20, 2023",Royal Challengers Bangalore,Punjab Kings,Punjab Kings,Field,normal,0,Royal Challengers Bangalore,24,0,Mohammed Siraj,Inderjit Singh Bindra Stadium
+2023,Delhi,"April 20, 2023",Kolkata Knight Riders,Delhi Capitals,Delhi Capitals,Field,normal,0,Delhi Capitals,0,4,Ishant Sharma,Arun Jaitley Stadium
+2023,Chennai,"April 21, 2023",Sunrisers Hyderabad,Chennai Super Kings,Chennai Super Kings,Field,normal,0,Chennai Super Kings,0,7,Ravindra Jadeja,M. A. Chidambaram Stadium
+2023,Lucknow,"April 22, 2023",Gujarat Titans,Lucknow Super Giants,Gujarat Titans,Bat,normal,0,Gujarat Titans,7,0,Mohit Sharma,BRSABV Ekana Cricket Stadium
+2023,Mumbai,"April 22, 2023",Punjab Kings,Mumbai Indians,Mumbai Indians,Field,normal,0,Punjab Kings,13,0,Sam Curran,Wankhede Stadium
+2023,Bengaluru,"April 23, 2023",Royal Challengers Bangalore,Rajasthan Royals,Rajasthan Royals,Field,normal,0,Royal Challengers Bangalore,7,0,Glenn Maxwell,M. Chinnaswamy Stadium
+2023,Kolkata,"April 23, 2023",Chennai Super Kings,Kolkata Knight Riders,Kolkata Knight Riders,Field,normal,0,Chennai Super Kings,49,0,Ajinkya Rahane,Eden Gardens
+2023,Hyderabad,"April 24, 2023",Delhi Capitals,Sunrisers Hyderabad,Delhi Capitals,Bat,normal,0,Delhi Capitals,7,0,Axar Patel,Rajiv Gandhi International Cricket Stadium
+2023,Ahmedabad,"April 25, 2023",Gujarat Titans,Mumbai Indians,Mumbai Indians,Field,normal,0,Gujarat Titans,55,0,Abhinav Manohar,Narendra Modi Stadium
+2023,Bengaluru,"April 26, 2023",Kolkata Knight Riders,Royal Challengers Bangalore,Royal Challengers Bangalore,Field,normal,0,Kolkata Knight Riders,21,0,Varun Chakravarthy,M. Chinnaswamy Stadium
+2023,Jaipur,"April 27, 2023",Rajasthan Royals,Chennai Super Kings,Rajasthan Royals,Bat,normal,0,Rajasthan Royals,32,0,Yashasvi Jaiswal,Sawai Mansingh Stadium
+2023,Mohali,"April 28, 2023",Lucknow Super Giants,Punjab Kings,Punjab Kings,Field,normal,0,Lucknow Super Giants,56,0,Marcus Stoinis,Inderjit Singh Bindra Stadium
+2023,Kolkata,"April 29, 2023",Kolkata Knight Riders,Gujarat Titans,Gujarat Titans,Field,normal,0,Gujarat Titans,0,7,Josh Little,Eden Gardens
+2023,Delhi,"April 29, 2023",Sunrisers Hyderabad,Delhi Capitals,Sunrisers Hyderabad,Bat,normal,0,Sunrisers Hyderabad,9,0,Mitchell Marsh,Arun Jaitley Stadium
+2023,Chennai,"April 30, 2023",Chennai Super Kings,Punjab Kings,Chennai Super Kings,Bat,normal,0,Punjab Kings,0,4,Devon Conway,M. A. Chidambaram Stadium
+2023,Mumbai,"April 30, 2023",Rajasthan Royals,Mumbai Indians,Rajasthan Royals,Bat,normal,0,Mumbai Indians,0,6,Yashasvi Jaiswal,Wankhede Stadium
+2023,Lucknow,"May 1, 2023",Royal Challengers Bangalore,Lucknow Super Giants,Royal Challengers Bangalore,Bat,normal,0,Royal Challengers Bangalore,18,0,Faf du Plessis,BRSABV Ekana Cricket Stadium
+2023,Ahmedabad,"May 2, 2023",Delhi Capitals,Gujarat Titans,Delhi Capitals,Bat,normal,0,Delhi Capitals,5,0,Mohammed Shami,Narendra Modi Stadium
+2023,Lucknow,"May 3, 2023",Lucknow Super Giants,Chennai Super Kings,Chennai Super Kings,Field,normal,1,Tie,NaN,NaN,NaN,BRSABV Ekana Cricket Stadium
+2023,Mohali,"May 3, 2023",Punjab Kings,Mumbai Indians,Mumbai Indians,Field,normal,0,Mumbai Indians,0,6,Ishan Kishan,Inderjit Singh Bindra Stadium
+2023,Hyderabad,"May 4, 2023",Kolkata Knight Riders,Sunrisers Hyderabad,Kolkata Knight Riders,Bat,normal,0,Kolkata Knight Riders,5,0,Varun Chakravarthy,Rajiv Gandhi International Cricket Stadium
+2023,Jaipur,"May 5, 2023",Rajasthan Royals,Gujarat Titans,Rajasthan Royals,Bat,normal,0,Gujarat Titans,0,9,Rashid Khan,Sawai Mansingh Stadium
+2023,Chennai,"May 6, 2023",Mumbai Indians,Chennai Super Kings,Chennai Super Kings,Field,normal,0,Chennai Super Kings,0,6,Matheesha Pathirana,M. A. Chidambaram Stadium
+2023,Delhi,"May 6, 2023",Royal Challengers Bangalore,Delhi Capitals,Royal Challengers Bangalore,Bat,normal,0,Delhi Capitals,0,7,Phil Salt,Arun Jaitley Stadium
+2023,Ahmedabad,"May 7, 2023",Gujarat Titans,Lucknow Super Giants,Lucknow Super Giants,Field,normal,0,Gujarat Titans,56,0,Shubman Gill,Narendra Modi Stadium
+2023,Jaipur,"May 7, 2023",Rajasthan Royals,Sunrisers Hyderabad,Rajasthan Royals,Bat,normal,0,Sunrisers Hyderabad,0,4,Glenn Phillips,Sawai Mansingh Stadium
+2023,Kolkata,"May 8, 2023",Punjab Kings,Kolkata Knight Riders,Punjab Kings,Bat,normal,0,Kolkata Knight Riders,0,5,Andre Russell,Eden Gardens
+2023,Mumbai,"May 9, 2023",Royal Challengers Bangalore,Mumbai Indians,Mumbai Indians,Field,normal,0,Mumbai Indians,0,6,Suryakumar Yadav,Wankhede Stadium
+2023,Chennai,"May 10, 2023",Chennai Super Kings,Delhi Capitals,Chennai Super Kings,Bat,normal,0,Chennai Super Kings,27,0,Ravindra Jadeja,M. A. Chidambaram Stadium
+2023,Kolkata,"May 11, 2023",Kolkata Knight Riders,Rajasthan Royals,Rajasthan Royals,Field,normal,0,Rajasthan Royals,0,9,Yashasvi Jaiswal,Eden Gardens
+2023,Mumbai,"May 12, 2023",Mumbai Indians,Gujarat Titans,Gujarat Titans,Field,normal,0,Mumbai Indians,27,0,Suryakumar Yadav,Wankhede Stadium
+2023,Hyderabad,"May 13, 2023",Sunrisers Hyderabad,Lucknow Super Giants,Sunrisers Hyderabad,Bat,normal,0,Lucknow Super Giants,0,7,Prerak Mankad,Rajiv Gandhi International Cricket Stadium
+2023,Delhi,"May 13, 2023",Punjab Kings,Delhi Capitals,Delhi Capitals,Field,normal,0,Punjab Kings,31,0,Prabhsimran Singh,Arun Jaitley Stadium
+2023,Jaipur,"May 14, 2023",Royal Challengers Bangalore,Rajasthan Royals,Royal Challengers Bangalore,Bat,normal,0,Royal Challengers Bangalore,112,0,Wayne Parnell,Sawai Mansingh Stadium
+2023,Chennai,"May 14, 2023",Chennai Super Kings,Kolkata Knight Riders,Chennai Super Kings,Bat,normal,0,Kolkata Knight Riders,0,6,Rinku Singh,M. A. Chidambaram Stadium
+2023,Ahmedabad,"May 15, 2023",Gujarat Titans,Sunrisers Hyderabad,Sunrisers Hyderabad,Field,normal,0,Gujarat Titans,34,0,Shubman Gill,Narendra Modi Stadium
+2023,Lucknow,"May 16, 2023",Lucknow Super Giants,Mumbai Indians,Mumbai Indians,Field,normal,0,Lucknow Super Giants,5,0,Marcus Stoinis,BRSABV Ekana Cricket Stadium
+2023,Dharamshala,"May 17, 2023",Delhi Capitals,Punjab Kings,Punjab Kings,Field,normal,0,Delhi Capitals,15,0,Rilee Rossouw,HPCA Stadium
+2023,Hyderabad,"May 18, 2023",Sunrisers Hyderabad,Royal Challengers Bangalore,Royal Challengers Bangalore,Field,normal,0,Royal Challengers Bangalore,0,8,Virat Kohli,Rajiv Gandhi International Cricket Stadium
+2023,Dharamshala,"May 19, 2023",Punjab Kings,Rajasthan Royals,Rajasthan Royals,Field,normal,0,Rajasthan Royals,0,4,Devdutt Padikkal,HPCA Stadium
+2023,Delhi,"May 20, 2023",Chennai Super Kings,Delhi Capitals,Chennai Super Kings,Bat,normal,0,Chennai Super Kings,77,0,Ruturaj Gaikwakd,Arun Jaitley Stadium
+2023,Kolkata,"May 20, 2023",Lucknow Super Giants,Kolkata Knight Riders,Kolkata Knight Riders,Field,normal,0,Lucknow Super Giants,1,0,Nicholas Pooran,Eden Gardens
+2023,Mumbai,"May 21, 2023",Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,Field,normal,0,Mumbai Indians,0,8,Cameron Green,Wankhede Stadium
+2023,Bengaluru,"May 21, 2023",Royal Challengers Bangalore,Gujarat Titans,Gujarat Titans,Field,normal,0,Gujarat Titans,0,6,Shubman Gill,M. Chinnaswamy Stadium
+2023,Chennai,"May 23, 2023",Chennai Super Kings,Gujarat Titans,Gujarat Titans,Field,playoffs,0,Chennai Super Kings,15,0,Ruturaj Gaikwakd,M. A. Chidambaram Stadium
+2023,Chennai,"May 24, 2023",Mumbai Indians,Lucknow Super Giants,Mumbai Indians,Bat,playoffs,0,Mumbai Indians,81,0,Akash Madhwal,M. A. Chidambaram Stadium
+2023,Ahmedabad,"May 26, 2023",Gujarat Titans,Mumbai Indians,Mumbai Indians,Field,playoffs,0,Gujarat Titans,62,0,Shubman Gill,Narendra Modi Stadium
+2023,Ahmedabad,NaN,Chennai Super Kings,Gujarat Titans,NaN,NaN,final,0,NaN,NaN,NaN,NaN,Narendra Modi Stadium
