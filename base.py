@@ -1,13 +1,13 @@
 """
-Base module for IPL analysis. Contains the Team class, list of teams, 
-and some used functions like calculating win rate.
+Arnav Khare & Aditi Manjunath
+CSE 163
+This file is a Base module for IPL analysis. Contains the Team class, list of
+teams, and some used functions like calculating win rate.
 """
 import pandas as pd
 import plotly.express as px
-
 import plotly.graph_objs as go
 import plotly.io as pio
-
 import os
 
 
@@ -17,26 +17,56 @@ class Team:
 
     Attributes:
         name (str): Name of the team.
-        stadium (str): Name of the stadium. 
+        stadium (str): Name of the stadium.
+        batting data (str): Name of file path with batting data for the team
+        bowling data (str): Name of file path with bowling data for the team
     """
-    def __init__(self, name: str, stadium: str, bowl_data: str = "", batting_data: str = "") -> None:
+
+    def __init__(self, name: str, stadium: str, bowl_data: str = "",
+                 batting_data: str = "") -> None:
+        """
+        Initializes a team object with the given name, stadium, bowl data,
+        and batting data
+        """
         self.name = name
         self.stadium = stadium
         self.bowl_data = bowl_data
         self.batting_data = batting_data
 
 
+# ---- A list of every team object with its given attributes ---- #
 TEAMS: list[Team] = [
-    Team(name='Royal Challengers Bangalore', stadium='M. Chinnaswamy Stadium', bowl_data="data/Royal Challengers Bangalore Bowling.csv", batting_data='data/Royal Challengers Bangalore Batting.csv'),
-    Team(name='Chennai Super Kings', stadium='M. A. Chidambaram Stadium', bowl_data="data/Chennai Super Kings Bowling.csv", batting_data="data/Chennai Super Kings Batting.csv"),
-    Team(name='Gujarat Titans', stadium='Narendra Modi Stadium', bowl_data="data/Gujarat Titans Bowling.csv", batting_data="data/Gujarat Titans Batting.csv"),
-    Team(name='Kolkata Knight Riders', stadium='Eden Gardens', bowl_data="data/Kolkata Knight Riders Bowling.csv", batting_data='data/Kolkata Knight Riders Batting.csv'),
-    Team(name='Punjab Kings', stadium='Inderjit Singh Bindra Stadium', bowl_data="data/Punjab Kings Bowling.csv", batting_data='data/Punjab Kings Batting.csv'),
-    Team(name='Lucknow Super Giants', stadium='BRSABV Ekana Cricket Stadium', bowl_data="data/Lucknow Super Giants Bowling.csv", batting_data='data/Lucknow Super Giants Batting.csv'),
-    Team(name='Delhi Capitals', stadium='Arun Jaitley Stadium', bowl_data="data/Delhi Capitals Bowling.csv", batting_data='data/Delhi Capitals Batting.csv'),
-    Team(name='Mumbai Indians', stadium='Wankhede Stadium', bowl_data="data/Mumbai Indians Bowling.csv", batting_data='data/Mumbai Indians Batting.csv'),
-    Team(name='Sunrisers Hyderabad', stadium='Rajiv Gandhi International Cricket Stadium', bowl_data="data/Sunrisers Hyderabad Bowling.csv", batting_data='data/Sunrisers Hyderabad Batting.csv'),
-    Team(name='Rajasthan Royals', stadium='Sawai Mansingh Stadium', bowl_data="data/Rajasthan Royals Bowling.csv", batting_data='data/Rajasthan Royals Batting.csv')
+    Team(name='Royal Challengers Bangalore', stadium='M. Chinnaswamy Stadium',
+         bowl_data="data/Royal Challengers Bangalore Bowling.csv",
+         batting_data='data/Royal Challengers Bangalore Batting.csv'),
+    Team(name='Chennai Super Kings', stadium='M. A. Chidambaram Stadium',
+         bowl_data="data/Chennai Super Kings Bowling.csv",
+         batting_data="data/Chennai Super Kings Batting.csv"),
+    Team(name='Gujarat Titans', stadium='Narendra Modi Stadium',
+         bowl_data="data/Gujarat Titans Bowling.csv",
+         batting_data="data/Gujarat Titans Batting.csv"),
+    Team(name='Kolkata Knight Riders', stadium='Eden Gardens',
+         bowl_data="data/Kolkata Knight Riders Bowling.csv",
+         batting_data='data/Kolkata Knight Riders Batting.csv'),
+    Team(name='Punjab Kings', stadium='Inderjit Singh Bindra Stadium',
+         bowl_data="data/Punjab Kings Bowling.csv",
+         batting_data='data/Punjab Kings Batting.csv'),
+    Team(name='Lucknow Super Giants', stadium='BRSABV Ekana Cricket Stadium',
+         bowl_data="data/Lucknow Super Giants Bowling.csv",
+         batting_data='data/Lucknow Super Giants Batting.csv'),
+    Team(name='Delhi Capitals', stadium='Arun Jaitley Stadium',
+         bowl_data="data/Delhi Capitals Bowling.csv",
+         batting_data='data/Delhi Capitals Batting.csv'),
+    Team(name='Mumbai Indians', stadium='Wankhede Stadium',
+         bowl_data="data/Mumbai Indians Bowling.csv",
+         batting_data='data/Mumbai Indians Batting.csv'),
+    Team(name='Sunrisers Hyderabad',
+         stadium='Rajiv Gandhi International Cricket Stadium',
+         bowl_data="data/Sunrisers Hyderabad Bowling.csv",
+         batting_data='data/Sunrisers Hyderabad Batting.csv'),
+    Team(name='Rajasthan Royals', stadium='Sawai Mansingh Stadium',
+         bowl_data="data/Rajasthan Royals Bowling.csv",
+         batting_data='data/Rajasthan Royals Batting.csv')
 ]
 
 
@@ -59,7 +89,8 @@ def plot_figure(figure: go.Figure, file_name: str) -> None:
     pio.write_image(figure, os.path.join("plots", file_name))
 
 
-def plot_bar_chart(data_frame: pd.DataFrame, x: str, y: str, title: str, color: str, file_name: str) -> None:
+def plot_bar_chart(data_frame: pd.DataFrame, x: str, y: str, title: str,
+                   color: str, file_name: str) -> None:
     """
     Plot a bar chart given a DataFrame and save it as a png file.
 
@@ -78,22 +109,39 @@ def plot_bar_chart(data_frame: pd.DataFrame, x: str, y: str, title: str, color: 
     plot_figure(fig, file_name)
 
 
-def cutsom_bar_chart(data_frame: pd.DataFrame, x: str, y: str, title: str, xaxis_title: str, yaxis_title: str, file_name: str) -> None:
-     
-     fig = go.Figure(data=[
-         go.Bar(x=x, y=y)])
-     
-     fig.update_layout(
-         title = title,
-         xaxis_title = xaxis_title,
-         yaxis_title = yaxis_title,
-     )
-     plot_figure(fig, file_name)
-
-
-def home_away_win_rate(IPL_data: pd.DataFrame, team: Team) -> tuple[float, float]:
+def cutsom_bar_chart(data_frame: pd.DataFrame, x: str, y: str, title: str,
+                     xaxis_title: str, yaxis_title: str,
+                     file_name: str) -> None:
     """
-    Calculate the home and away win rate for a given team.
+    Plot a custom bar chart given a DataFrame and save it as a png file.
+
+    Args:
+        data_frame (pd.DataFrame): DataFrame to plot.
+        x (str): Name of the x-axis.
+        y (str): Name of the y-axis.
+        title (str): Title of the plot.
+        xaxis_title (str): Title of the x-axis.
+        yaxis_title (str): Title of the y-axis.
+        file_name (str): Name of the file to save the plot
+
+    Returns:
+        None, plot is saved as png
+    """
+    fig = go.Figure(data=[
+         go.Bar(x=x, y=y)])
+
+    fig.update_layout(
+         title=title,
+         xaxis_title=xaxis_title,
+         yaxis_title=yaxis_title,
+     )
+    plot_figure(fig, file_name)
+
+
+def home_away_win_rate(IPL_data: pd.DataFrame,
+                       team: Team) -> tuple[float, float]:
+    """
+    Calculates the home and away win rate for a given team.
 
     Args:
         IPL_data (pd.DataFrame): IPL data by team.

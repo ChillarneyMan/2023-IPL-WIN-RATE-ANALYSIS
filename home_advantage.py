@@ -1,18 +1,26 @@
+"""
+Arnav Khare & Aditi Manjunath
+CSE 163
+This is a file that implements the function home_ground_advantage
+"""
 import pandas as pd
 
 from base import TEAMS, plot_bar_chart, home_away_win_rate, Team
 
 
-def home_ground_advantage(IPL_data: pd.DataFrame, team_list: list[Team]) -> pd.DataFrame:
+def home_ground_advantage(IPL_data: pd.DataFrame,
+                          team_list: list[Team]) -> pd.DataFrame:
     """
-    Calculate the home ground advantage for each team.
+    Calculate the home ground advantage for each team and plots results.
+    Plots are saved as home_win_rate.png and away_win_rate.png
 
     Args:
         IPL_data (pd.DataFrame): IPL data by team.
 
     Returns:
-        pd.DataFrame: DataFrame with the home ground advantage for each team. Has the
-        following columns: Team, Home Win Rate, Away Win Rate.
+        pd.DataFrame: DataFrame with the home ground advantage for each team.
+        Has the following columns: Team, Home Win Rate, Away Win Rate.
+        team_list (list[Team]): list of teams (Team)
     """
     teams: list[str] = []
     home_win_rates: list[float] = []
@@ -35,8 +43,7 @@ def home_ground_advantage(IPL_data: pd.DataFrame, team_list: list[Team]) -> pd.D
 
     # Plot the results
     plot_bar_chart(data_frame, 'Team', 'Home Win Rate',
-                   'Home Win Rate per Team', 'Team',
-                   'home_win_rate.png')
+                   'Home Win Rate per Team', 'Team', 'home_win_rate.png')
     plot_bar_chart(data_frame, 'Team', 'Away Win Rate',
                    'Away Win Rate per Team', 'Team', 'away_win_rate.png')
 
@@ -44,10 +51,9 @@ def home_ground_advantage(IPL_data: pd.DataFrame, team_list: list[Team]) -> pd.D
 
 
 def main():
-    """
-    Take the IPL data and calculate the home ground advantage for each team. Plot
-    the results. Print the results as a DataFrame.
-    """
+    # Take the IPL data and calculate the home ground advantage for each team.
+    # Plot the results. Print the results as a DataFrame.
+
     # Load the IPL data
     IPL_data = pd.read_csv('data/2023 IPL Teams.csv')
 
